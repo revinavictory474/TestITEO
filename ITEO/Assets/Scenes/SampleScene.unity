@@ -795,6 +795,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 573f139233ee861469ab3e86b56ac284, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  thisGameObj: {fileID: 513815187}
+  camera: {fileID: 963194228}
+  offset: {x: 5, y: 5, z: 2}
 --- !u!65 &513815191
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -970,6 +973,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 573f139233ee861469ab3e86b56ac284, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  thisGameObj: {fileID: 551730136}
+  camera: {fileID: 963194228}
+  offset: {x: 5, y: 5, z: 2}
 --- !u!65 &551730139
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1535,6 +1541,7 @@ GameObject:
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
   - component: {fileID: 963194230}
+  - component: {fileID: 963194229}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1607,6 +1614,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &963194229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aba8263bc67e0004ca88863a5e684c84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offset: {x: 0, y: 0, z: -10}
+  delayTime: 1
 --- !u!114 &963194230
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1683,6 +1704,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 573f139233ee861469ab3e86b56ac284, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  thisGameObj: {fileID: 1201109947}
+  camera: {fileID: 963194228}
+  offset: {x: 5, y: 5, z: 2}
 --- !u!65 &1201109951
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1965,6 +1989,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 573f139233ee861469ab3e86b56ac284, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  thisGameObj: {fileID: 0}
+  camera: {fileID: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!4 &1784690503
 Transform:
   m_ObjectHideFlags: 0
@@ -2225,7 +2252,7 @@ GameObject:
   - component: {fileID: 2129719230}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
