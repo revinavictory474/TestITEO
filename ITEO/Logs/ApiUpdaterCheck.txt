@@ -1,0 +1,10 @@
+[api-updater (non-obsolete-error-filter)] 11.09.2021 13:08:54 : Starting E:/Revina/2020.3.1f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 1759,6482ms
+moved types parse time: 154ms
+candidates parse time : 1ms
+C# parse time         : 1250ms
+candidates check time : 69ms
+console write time    : 10ms
+
