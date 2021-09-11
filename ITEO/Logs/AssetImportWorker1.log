@@ -1,0 +1,184 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.1f1 (77a89f25062f) revision 7841951'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1165; Version 2009; 64bit' Language: 'ru' Physical Memory: 8149 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+E:\Revina\2020.3.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/UnityEducation/TestITEO/ITEO
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+49480
+Successfully changed project path to: D:/UnityEducation/TestITEO/ITEO
+D:/UnityEducation/TestITEO/ITEO
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 49.07 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.1f1 (77a89f25062f)
+[Subsystems] Discovering subsystems at path E:/Revina/2020.3.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityEducation/TestITEO/ITEO/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 960 (ID=0x1401)
+    Vendor:   
+    VRAM:     2007 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'E:/Revina/2020.3.1f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Revina/2020.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'E:/Revina/2020.3.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56656
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Revina/2020.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002622 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 45.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  9.304 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000897 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.167 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.32 seconds
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.2 MB.
+System memory in use after: 57.3 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1559.
+Total: 2.535800 ms (FindLiveObjects: 0.173200 ms CreateObjectMapping: 0.068600 ms MarkObjects: 2.158600 ms  DeleteObjects: 0.133500 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Img
+  artifactKey: Guid(ff3a4390fe643f44d81810710669a09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img using Guid(ff3a4390fe643f44d81810710669a09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b894c8df29f4c692fad97805b9455497') in 0.033506 seconds
+  Import took 0.036805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 76.320305 seconds.
+  path: Assets/Img/8ipwnn.jpg
+  artifactKey: Guid(0f422250c6daf1f4287390de071c444d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/8ipwnn.jpg using Guid(0f422250c6daf1f4287390de071c444d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6e450e3c2e40c7094aa76984749187f') in 0.357524 seconds
+  Import took 0.374001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Img/1547365376_1.jpg
+  artifactKey: Guid(f9acfc6e33982964ea40a0cd0314648a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/1547365376_1.jpg using Guid(f9acfc6e33982964ea40a0cd0314648a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '761c17b6847e5c30093f9a5eb71e6ea3') in 0.054302 seconds
+  Import took 0.060042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Img/pietro-de-grandi-t7k4aepoggk-unsplash.jpg
+  artifactKey: Guid(e13a651de75fb2048bdd2af679509af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/pietro-de-grandi-t7k4aepoggk-unsplash.jpg using Guid(e13a651de75fb2048bdd2af679509af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62407f1add58e9e7738830260f45ba8f') in 0.044046 seconds
+  Import took 0.059709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018888 seconds.
+  path: Assets/Img/pietro-de-grandi-t7k4aepoggk-unsplash.jpg
+  artifactKey: Guid(e13a651de75fb2048bdd2af679509af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/pietro-de-grandi-t7k4aepoggk-unsplash.jpg using Guid(e13a651de75fb2048bdd2af679509af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62407f1add58e9e7738830260f45ba8f') in 0.032621 seconds
+  Import took 0.048936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.850775 seconds.
+  path: Assets/Img/8ipwnn.jpg
+  artifactKey: Guid(0f422250c6daf1f4287390de071c444d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/8ipwnn.jpg using Guid(0f422250c6daf1f4287390de071c444d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dfd34130ec4cb3492c286b110fc08e3') in 0.159236 seconds
+  Import took 0.165170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.077844 seconds.
+  path: Assets/Img/1547365376_1.jpg
+  artifactKey: Guid(f9acfc6e33982964ea40a0cd0314648a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/1547365376_1.jpg using Guid(f9acfc6e33982964ea40a0cd0314648a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c2c5736b1d71a56342cdb6e5678730f') in 0.050049 seconds
+  Import took 0.054758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.696518 seconds.
+  path: Assets/Img/pietro-de-grandi-t7k4aepoggk-unsplash.jpg
+  artifactKey: Guid(e13a651de75fb2048bdd2af679509af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/pietro-de-grandi-t7k4aepoggk-unsplash.jpg using Guid(e13a651de75fb2048bdd2af679509af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ecd79f00adb31ac9600ff3c71a4a47d') in 0.030463 seconds
+  Import took 0.035934 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000892 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.522 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1111 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.3 MB.
+System memory in use after: 60.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1574.
+Total: 2.127000 ms (FindLiveObjects: 0.155000 ms CreateObjectMapping: 0.059400 ms MarkObjects: 1.840200 ms  DeleteObjects: 0.071000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000869 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.991 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1111 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.3 MB.
+System memory in use after: 60.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1577.
+Total: 2.392200 ms (FindLiveObjects: 0.182100 ms CreateObjectMapping: 0.067300 ms MarkObjects: 2.057000 ms  DeleteObjects: 0.083500 ms)
+
