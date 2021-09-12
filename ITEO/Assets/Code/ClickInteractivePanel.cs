@@ -1,53 +1,48 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.EventSystems;
 using static ITEO.MouseOrbitImproved;
 
 namespace ITEO
 {
-    public class ClickInteractivePanel : MonoBehaviour
+    internal class ClickInteractivePanel : MonoBehaviour
     {
-        public GameObject thisGameObj;
-        public Transform cameraTransform;
-        public GameObject uiPanel;
-        public GameObject bgFill;
-        private float speed = 0.1f;
-
+        #region Fields
+        [SerializeField] private GameObject _thisGameObj;
+        [SerializeField] private Transform _cameraTransform;
+        [SerializeField] private GameObject _uiPanel;
+        [SerializeField] private GameObject _backgroundFill;
+        private float _speed = 0.1f;
+        #endregion
 
         private void Start()
         {
             Time.timeScale = 1;
         }
 
-
-        public void OnMouseUp()
+        private void OnMouseUp()
         {
-            Debug.Log("Tap");
             TransformCamera();
             ActivePanel();
         }
 
         private void TransformCamera()
         {
-            cameraTransform.transform.position = Vector3.Lerp(cameraTransform.transform.position, thisGameObj.transform.position, speed);
+            _cameraTransform.transform.position = Vector3.Lerp(_cameraTransform.transform.position, _thisGameObj.transform.position, _speed);
         }
 
-        public void ActivePanel()
+        private void ActivePanel()
         {
-            uiPanel.SetActive(true);
-            bgFill.SetActive(true);
+            _uiPanel.SetActive(true);
+            _backgroundFill.SetActive(true);
             mouseOrbit.isPause = false;
             mouseOrbit.DemoPause();
-
         }
-        public void DeactivePanel()
+
+        private void DeactivePanel()
         {
-            uiPanel.SetActive(false);
-            bgFill.SetActive(false);
+            _uiPanel.SetActive(false);
+            _backgroundFill.SetActive(false);
             mouseOrbit.isPause = true;
             mouseOrbit.DemoPause();
         }
-
     }
 }

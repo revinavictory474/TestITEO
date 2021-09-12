@@ -1456,10 +1456,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 573f139233ee861469ab3e86b56ac284, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thisGameObj: {fileID: 513815187}
-  cameraTransform: {fileID: 963194228}
-  uiPanel: {fileID: 1182984099}
-  bgFill: {fileID: 1542953199}
+  _thisGameObj: {fileID: 513815187}
+  _cameraTransform: {fileID: 963194228}
+  _uiPanel: {fileID: 1182984099}
+  _backgroundFill: {fileID: 1542953199}
 --- !u!65 &513815191
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1635,10 +1635,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 573f139233ee861469ab3e86b56ac284, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thisGameObj: {fileID: 551730136}
-  cameraTransform: {fileID: 963194228}
-  uiPanel: {fileID: 685782780}
-  bgFill: {fileID: 1542953199}
+  _thisGameObj: {fileID: 551730136}
+  _cameraTransform: {fileID: 963194228}
+  _uiPanel: {fileID: 685782780}
+  _backgroundFill: {fileID: 1542953199}
 --- !u!65 &551730139
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3480,10 +3480,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 573f139233ee861469ab3e86b56ac284, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thisGameObj: {fileID: 1201109947}
-  cameraTransform: {fileID: 963194228}
-  uiPanel: {fileID: 1155321403}
-  bgFill: {fileID: 1542953199}
+  _thisGameObj: {fileID: 1201109947}
+  _cameraTransform: {fileID: 963194228}
+  _uiPanel: {fileID: 1155321403}
+  _backgroundFill: {fileID: 1542953199}
 --- !u!65 &1201109951
 BoxCollider:
   m_ObjectHideFlags: 0

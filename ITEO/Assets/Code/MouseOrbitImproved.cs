@@ -2,22 +2,23 @@ using UnityEngine;
 
 namespace ITEO
 {
-    public class MouseOrbitImproved : MonoBehaviour
+    internal class MouseOrbitImproved : MonoBehaviour
     {
+        #region Fields
         [SerializeField] private Transform target;
         internal static MouseOrbitImproved mouseOrbit;
         private float timeLeft = 10f;
-        internal float distance = 10.0f;
-        internal float xSpeed = 120.0f;
-        internal float ySpeed = 120.0f;
+        private float distance = 10.0f;
+        private float xSpeed = 120.0f;
+        private float ySpeed = 120.0f;
 
-        internal float yMinLimit = -5.0f;
-        internal float yMaxLimit = 80.0f;
+        private float yMinLimit = -5.0f;
+        private float yMaxLimit = 80.0f;
 
-        internal float x = 0.0f;
-        internal float y = 0.0f;
-        public bool isPause;
-
+        private float x = 0.0f;
+        private float y = 0.0f;
+        internal bool isPause;
+        #endregion
 
         private void Awake()
         {
@@ -33,13 +34,14 @@ namespace ITEO
             x = angles.y;
             y = angles.x;
         }
-        void Update()
-        {
-            
-        }
-
 
         void LateUpdate()
+        {
+            RotateCameraWithTheMouse();
+            IdleTimerAndSpinStart();
+        }
+
+        private void RotateCameraWithTheMouse()
         {
             if (target && Input.GetMouseButton(0) && !isPause)
             {
@@ -54,24 +56,27 @@ namespace ITEO
 
                 transform.rotation = rotation;
                 transform.position = position;
-
             }
-                if (Input.GetAxis("Mouse X") == 0 && (Input.GetAxis("Mouse Y") == 0))
-                {
-                    timeLeft -= Time.deltaTime;
-
-                    if (timeLeft < 0)
-                    {
-                        RotateCamera();
-                    }
-                }
-                else
-                {
-                    timeLeft = 10f;
-                }
         }
 
-        public static float ClampAngle(float angle, float min, float max)
+        private void IdleTimerAndSpinStart()
+        {
+            if (Input.GetAxis("Mouse X") == 0 && (Input.GetAxis("Mouse Y") == 0))
+            {
+                timeLeft -= Time.deltaTime;
+
+                if (timeLeft < 0)
+                {
+                    CameraRotationWhenTimeElapses();
+                }
+            }
+            else
+            {
+                timeLeft = 10f;
+            }
+        }
+
+        private static float ClampAngle(float angle, float min, float max)
         {
             if (angle < -360F)
                 angle += 360F;
@@ -80,13 +85,12 @@ namespace ITEO
             return Mathf.Clamp(angle, min, max);
         }
 
-
-        private void RotateCamera()
+        private void CameraRotationWhenTimeElapses()
         {
             transform.RotateAround(target.position, new Vector3(0, 5, 0), 10 * Time.deltaTime);
         }
 
-        public void DemoPause()
+        internal void DemoPause()
         {
             if (!isPause)
             {
